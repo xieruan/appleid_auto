@@ -2,9 +2,11 @@
 
 ## 注意事项
 
+**程序后端对机器配置要求较高，推荐至少4G内存。如账号较多，请考虑使用集群。**
+
 ### 环境需求
 
-后端运行基于Docker，安装脚本会自动检测Docker是否安装。
+后端运行基于Docker，安装脚本会自动检测Docker是否安装，因此无需手动安装。
 
 ### Selenium
 
@@ -22,7 +24,7 @@ Selenium有两种部署方式：单机节点和集群。
 
 Selenium Grid需要一个中心控制器（Hub），并允许在多台服务器上部署节点（Node）。Hub收到请求后会自动分配Node，实现负载均衡，多IP访问等功能。
 
-如需部署集群，可使用快速部署脚本。请参考[sahuidhsu/selenium-grid-docker](https://github.com/sahuidhsu/selenium-grid-docker) (这个脚本提供x86\_64和arm部署支持)。如果部署集群，请勿在下方部署后端时选择部署Selenium单机节点
+如需部署集群，可使用快速部署脚本。请参考[sahuidhsu/selenium-grid-docker](https://github.com/sahuidhsu/selenium-grid-docker) (这个脚本提供x86\_64和arm部署支持)。**如果部署集群，请勿在下方部署后端时选择部署Selenium单机节点**
 
 ## 一键部署后端
 
