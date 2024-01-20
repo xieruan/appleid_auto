@@ -4,6 +4,11 @@
 * [Demo](demo.md)
 * [购买](gou-mai.md)
 
+## 源码下载 <a href="#downloads" id="downloads"></a>
+
+* [个人版](https://github.com/pplulee/AppleAutoPro-Personal/releases)
+* [商业版](https://github.com/pplulee/AppleAutoPro-Business/releases)
+
 ## 安装教程 <a href="#install" id="install"></a>
 
 * [前端安装](install/front-end.md)
