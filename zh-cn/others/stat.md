@@ -24,7 +24,8 @@
 
 程序仅支持不带身份验证的代理
 
-| 网址                                                                    | 状态 | 说明        |
-| --------------------------------------------------------------------- | -- | --------- |
-| [https://oxylabs.io/](https://oxylabs.io/https://hydraproxy.com/)     | ✅  |           |
-| [https://hydraproxy.com/](https://oxylabs.io/https://hydraproxy.com/) | ❌  | 只有用户名密码模式 |
+| 网址                                                                              | 状态 | 说明        |
+| ------------------------------------------------------------------------------- | -- | --------- |
+| [https://www.zmhttp.com?pid=8891470623](https://www.zmhttp.com/?pid=8891470623) | ✅  | 国内商家      |
+| [https://oxylabs.io/](https://oxylabs.io/https://hydraproxy.com/)               | ✅  |           |
+| [https://hydraproxy.com/](https://oxylabs.io/https://hydraproxy.com/)           | ❌  | 只有用户名密码模式 |
