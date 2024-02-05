@@ -2,7 +2,8 @@
 
 ## 注意事项
 
-**程序后端对机器配置要求较高，推荐至少4G内存。如账号较多，请考虑使用集群。**
+**程序后端对机器配置要求较高，推荐至少4G内存。如账号较多，请考虑使用集群。**\
+**建议不要使用Centos7。**
 
 ### 环境需求
 
@@ -32,7 +33,7 @@ Selenium Grid需要一个中心控制器（Hub），并允许在多台服务器�
 bash <(curl -Ls https://raw.githubusercontent.com/pplulee/AppleAutoPro-Backend/main/install.sh)
 ```
 
-安装时按照提示输入参数即可。\
+安装时按照提示输入参数即可。如安装单机版Selenium请确保可以访问4444端口。\
 默认会以**appleautopro**为容器名部署一个Docker容器，这是**`后端管理器`**。\
 appleauto会自动获取任务，为每个任务部署一个**`任务容器`**\
 执行 **docker logs appleautopro** 查看**`后端管理器`**日志。\
